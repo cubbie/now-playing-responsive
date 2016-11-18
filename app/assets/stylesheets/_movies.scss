@@ -51,3 +51,74 @@
   font-size: 2em;
   line-height: 1.1;
 }
+
+@media (min-width: 768px) {
+
+  .movie-container {
+    margin-left: 5rem;
+    margin-right: 0;
+  }
+
+
+
+  .movie-overview {
+    display: block;
+  }
+  .movie-title-label {
+    font-family: $label-font-family;
+    font-size: 0.7em;
+    line-height: 1;
+    text-transform: uppercase;
+    color: $yellow;
+    margin-left: 0;
+  }
+
+  .movie-title {
+    margin-left: 0;
+    font-size: 2em;
+    line-height: 1.1;
+  }
+}
+
+
+@media (min-width: 992px) {
+
+
+
+  .movie {
+    width: 33.333%;
+    margin: 0;
+    float: left;
+  }
+
+  .movie-backdrop {
+    display: none;
+  }
+
+  .movie-poster {
+    display: block;
+  }
+
+  .movie-overview:first-child {
+    display: block;
+  }
+
+  .movie-overview {
+    display: none;
+  }
+
+  .movie:first-child {
+    width: 100%;
+  }
+
+  .movie:first-child .movie-poster {
+    display: none;
+  }
+  .movie:first-child .movie-backdrop {
+    width: 100%;
+    display: block;
+
+  }
+
+
+}

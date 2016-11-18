@@ -53,3 +53,38 @@
   display: block;
   margin-top: 0.5em;
 }
+
+@media (min-width: 768px) {
+  .site-logo {
+    position: fixed;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: $nav-bar-height;
+    height: $nav-bar-height;
+    margin: 0;
+    z-index: $layer-three;
+  }
+
+  .site-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 2rem;
+    width: 5rem;
+    z-index: $layer-one;
+    background-color: $white;
+  }
+
+  .site-nav-list {
+    display: block;
+    margin-top: 2.5rem;
+  }
+
+  .site-nav-item {
+    width: 100%;
+  }
+
+  .footer-nav-list {
+    margin-left: 10%;
+  }
+}
